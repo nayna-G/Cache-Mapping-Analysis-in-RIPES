@@ -1,3 +1,5 @@
-#Cache Mapping Topology Demonstration for Ripes
+# Cache Mapping Analysis using RIPES RISC-V Simulator
 
-A computer architecture and organization mini-project showing how cache mapping topology (Direct-Mapped vs Set-Associative vs Fully Associative) affects hit rate, conflict misses, and overall performance, using the Ripes RISC-V simulator.git
+This project demonstrates how cache associativity affects conflict misses using the Ripes RISC-V simulator. 
+
+A pathological memory access pattern is used to create thrashing in a direct-mapped cache. The same program is then executed with a 4-way set-associative cache to show how increased associativity eliminates conflict misses without changing cache size or code.
